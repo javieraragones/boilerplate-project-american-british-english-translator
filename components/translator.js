@@ -13,7 +13,6 @@ const reverseDict = (obj) => {
 
 
 class Translator {
-  //Code from Landon Schlangen video-> https://youtu.be/kLt7FG-6iEA?si=FmoR-1qQk09k41z8
   toBritishEnglish(text) {
     const dict = { ...americanOnly, ...americanToBritishSpelling };
     const titles = americanToBritishTitles;
